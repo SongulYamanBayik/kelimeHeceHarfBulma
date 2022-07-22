@@ -6,6 +6,7 @@ namespace HecelereAyırma
     {
         static void Main(string[] args)
         {
+            //pull deneme
             string cumle;
             int kelime = 0;
             int harf = 0;
