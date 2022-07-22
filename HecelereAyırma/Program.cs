@@ -23,15 +23,16 @@ namespace HecelereAyırma
             }
             foreach (char item in cumle)
             {
-                for (int j = 0; j <hece.Length; j++)
+                for (int j = 0; j < hece.Length; j++)
                 {
                     if (item.ToString() == hece[j])
                     {
                         hece1++;
                     }
                 }
-                
+
             }
+       
            
             Console.WriteLine("Hece Sayısı: " + hece1);
             Console.WriteLine("Kelime Sayısı: "+ (kelime+1));
